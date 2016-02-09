@@ -1,0 +1,14 @@
+{
+  "name": "microevent2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/microevents2.min.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.2"
+  },
+  "author": "alessandro.annini@gmail.com",
+  "license": "MIT"
+}

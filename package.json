@@ -1,7 +1,7 @@
 {
   "name": "microevent2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Event emitter tiny library",
   "main": "lib/microevents2.min.js",
   "dependencies": {},
   "devDependencies": {

@@ -1,5 +1,5 @@
 # Dependency directory
 node_modules
 
-# Files
-example.js
+# files
+package.json

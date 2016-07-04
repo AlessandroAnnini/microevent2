@@ -3,14 +3,14 @@ microevent2.js
 
 *microevent2.js* is a event emitter library which provides the [observer pattern](http: //en.wikipedia.org/wiki/Observer_pattern) to javascript objects.
 
-It works on node.js and browser.It is a single.js file containing
+It works on ES6, node.js and browser. It is a single.js file containing
 
-< a href = "https://raw.githubusercontent.com/sun2rise/microevent2/master/lib/microevent2.js" >
+< a href = "https://raw.githubusercontent.com/sun2rise/microevent2/master/dist/microevent2.js" >
 
 Usage
 -----
 
-You need a single file [microevent2.js](https://raw.githubusercontent.com/sun2rise/microevent2/master/lib/microevent2.js). Include it in a webpage via the usual script tag.
+You need a single file [microevent2.js](https://raw.githubusercontent.com/sun2rise/microevent2/master/dist/microevent2.js). Include it in a webpage via the usual script tag.
 
 ```html
 <script src="microevent2.js"> </script>
@@ -21,6 +21,16 @@ var microevent2 = new MicroEvent2();
 
 microevent2.on('some-event', someCallback);
 microevent2.emit('some-event');
+```
+
+or
+
+```js
+import MicroEvent2 from 'MicroEvent2';
+let Object = function () {
+  MicroEvent2.mixin(this);
+  this.emit('ev.name', data);
+}
 ```
 
 or

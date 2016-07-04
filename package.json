@@ -1,8 +1,11 @@
 {
   "name": "microevent2",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "Event emitter tiny library",
   "main": "lib/microevent2.js",
+  "scripts": {
+    "build": "babel lib/microevent2.js -o bin/microevent2.js"
+  },
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.10.1",
